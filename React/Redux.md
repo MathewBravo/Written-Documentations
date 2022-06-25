@@ -100,3 +100,11 @@ Returns the current state store.
 ```javascript
 const appReducer = (state = { object: InitialValue }, action) => {};
 ```
+### useSelector()
+> Allows you to extract data from the Redux store state, using a selector function.
+
+### useStore()
+> This hook returns a reference to the same Redux store that was passed in to the <Provider> component.
+
+### useDispatch
+> This hook returns a reference to the dispatch function from the Redux store.
