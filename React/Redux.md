@@ -96,6 +96,7 @@ Returns the current state store.
 > -   Changes are made with pure functions
 
 -   When applications are intialized the reducer will be run so your initial state will be undefined. State should be intialized with a default value
+-   **NEVER MUTATE STATE ONLY OVERWRITE IT**
 
 ```javascript
 const appReducer = (state = { object: InitialValue }, action) => {};
@@ -108,3 +109,4 @@ const appReducer = (state = { object: InitialValue }, action) => {};
 
 ### useDispatch
 > This hook returns a reference to the dispatch function from the Redux store.
+    
