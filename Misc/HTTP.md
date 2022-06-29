@@ -9,7 +9,7 @@ Clients and servers communicate by exchanging individual messages (as opposed to
 
 ## Response Codes
 
-Can be found in their own [documentation](
+Can be found in their own [documentation](https://github.com/MathewBravo/Written-Documentations/blob/main/Misc/ResponseCodes.md)
 
 ## HTTP Request Methods
 
